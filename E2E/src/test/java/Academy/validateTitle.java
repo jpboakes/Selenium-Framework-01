@@ -32,7 +32,7 @@ public class validateTitle extends base {
 	public void basepageNavigation() throws IOException {
 		LandingPage l=new LandingPage(driver);
 		//compare the text from the browser with actual text.-error..
-		Assert.assertEquals(l.getTitle().getText(),"FEATURED COURSES");
+		Assert.assertEquals(l.getTitle().getText(),"FEATURED COURSES123");
 		log.info("Successfully validated Text");
 		
 		

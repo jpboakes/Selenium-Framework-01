@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.404" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.527" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="G:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="G:\MavenProject\E2E"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\Git\Selenium-Framework-01\E2E"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="G:\MavenProject\E2E"/>
+    <property name="user.dir" value="G:\GIT\Selenium-Framework-01\E2E"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="G:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="G:\Program Files\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="G:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;G:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;G:\Android\Sdk\tools\bin;G:\Android\sdk\tools;G:\Android\sdk\platform-tools;G:\Program Files\nodejs\;G:\Program Files\nodejs\node_modules\npm\bin;G:\Program Files\apache-maven-3.5.0\bin;C:\Users\Jon-Paul Boakes\AppData\Local\Microsoft\WindowsApps;C:\Users\Jon-Paul Boakes\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="G:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;G:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;G:\Android\Sdk\tools\bin;G:\Android\sdk\tools;G:\Android\sdk\platform-tools;G:\Program Files\nodejs\;G:\Program Files\nodejs\node_modules\npm\bin;G:\Program Files\apache-maven-3.5.0\bin;C:\Users\Jon-Paul Boakes\AppData\Local\Microsoft\WindowsApps;C:\Users\Jon-Paul Boakes\AppData\Roaming\npm;C:\Users\Jon-Paul Boakes\AppData\Local\GitHubDesktop\bin;."/>
     <property name="maven.conf" value="G:\Program Files\apache-maven-3.5.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -64,8 +64,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="basepageNavigation" classname="Academy.validateTitle" time="0.217"/>
-  <testcase name="basepageNavigation" classname="Academy.HomePage" time="6.285"/>
-  <testcase name="basepageNavigation" classname="Academy.HomePage" time="6.121"/>
-  <testcase name="basepageNavigation" classname="Academy.validatenavigationBar" time="0.246"/>
+  <testcase name="basepageNavigation" classname="Academy.validateTitle" time="0.245">
+    <failure message="expected [FEATURED COURSES123] but found [FEATURED COURSES]" type="java.lang.AssertionError">java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at Academy.validateTitle.basepageNavigation(validateTitle.java:35)
+</failure>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.5.0.0
+Listening on port 5075
+Only local connections are allowed
+Sep 13, 2017 8:21:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basepageNavigation" classname="Academy.HomePage" time="6.548"/>
+  <testcase name="basepageNavigation" classname="Academy.HomePage" time="6.558"/>
+  <testcase name="basepageNavigation" classname="Academy.validatenavigationBar" time="0.24"/>
 </testsuite>

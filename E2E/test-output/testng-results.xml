@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4803" started-at="2017-09-12T14:22:41Z" finished-at="2017-09-12T14:22:46Z">
+  <suite name="Default suite" duration-ms="4351" started-at="2017-09-13T07:20:31Z" finished-at="2017-09-13T07:20:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4803" started-at="2017-09-12T14:22:41Z" finished-at="2017-09-12T14:22:46Z">
+    <test name="Default test" duration-ms="4351" started-at="2017-09-13T07:20:31Z" finished-at="2017-09-13T07:20:36Z">
       <class name="Academy.validateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@687e99d8]" name="initialize" is-config="true" duration-ms="4599" started-at="2017-09-12T15:22:41Z" finished-at="2017-09-12T15:22:46Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@687e99d8]" name="initialize" is-config="true" duration-ms="4164" started-at="2017-09-13T08:20:31Z" finished-at="2017-09-13T08:20:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="basepageNavigation()[pri:0, instance:Academy.validateTitle@687e99d8]" name="basepageNavigation" duration-ms="172" started-at="2017-09-12T15:22:46Z" finished-at="2017-09-12T15:22:46Z">
+        <test-method status="FAIL" signature="basepageNavigation()[pri:0, instance:Academy.validateTitle@687e99d8]" name="basepageNavigation" duration-ms="156" started-at="2017-09-13T08:20:36Z" finished-at="2017-09-13T08:20:36Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [FEATURED COURSES1] but found [FEATURED COURSES]]]>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES1] but found [FEATURED COURSES]
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepageNavigation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@687e99d8]" name="teardown" is-config="true" duration-ms="32" started-at="2017-09-12T15:22:46Z" finished-at="2017-09-12T15:22:46Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@687e99d8]" name="teardown" is-config="true" duration-ms="31" started-at="2017-09-13T08:20:36Z" finished-at="2017-09-13T08:20:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
