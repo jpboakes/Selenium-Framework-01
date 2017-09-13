@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.527" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.323" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="G:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -64,19 +64,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="basepageNavigation" classname="Academy.validateTitle" time="0.245">
+  <testcase name="basepageNavigation" classname="Academy.validateTitle" time="0.143">
     <failure message="expected [FEATURED COURSES123] but found [FEATURED COURSES]" type="java.lang.AssertionError">java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
 	at Academy.validateTitle.basepageNavigation(validateTitle.java:35)
 </failure>
     <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
 3.5.0.0
-Listening on port 5075
+Listening on port 1631
 Only local connections are allowed
-Sep 13, 2017 8:21:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 13, 2017 8:59:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="basepageNavigation" classname="Academy.HomePage" time="6.548"/>
-  <testcase name="basepageNavigation" classname="Academy.HomePage" time="6.558"/>
-  <testcase name="basepageNavigation" classname="Academy.validatenavigationBar" time="0.24"/>
+  <testcase name="basepageNavigation" classname="Academy.HomePage" time="7.425"/>
+  <testcase name="basepageNavigation" classname="Academy.HomePage" time="6.644"/>
+  <testcase name="basepageNavigation" classname="Academy.validatenavigationBar" time="0.249"/>
 </testsuite>

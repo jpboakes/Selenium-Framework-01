@@ -3,6 +3,7 @@
 <suite name="Suite">
  <listeners>
  	<listener class-name="resources.listeners"/>
+ 	<listener class-name="resources.ExtentReporterNG"/>
  </listeners>
 
   <test name="Validating Title">
