@@ -21,9 +21,9 @@
       </class> <!-- Academy.validatenavigationBar -->
       <class name="Academy.validateTitle">
         <methods>
-          <include name="basepageNavigation"/>
           <include name="initialize"/>
           <include name="teardown"/>
+          <include name="navigateAppTitle"/>
         </methods>
       </class> <!-- Academy.validateTitle -->
     </classes>

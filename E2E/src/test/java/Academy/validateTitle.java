@@ -29,7 +29,7 @@ public class validateTitle extends base {
 	
 	@Test
 		
-	public void basepageNavigation() throws IOException {
+	public void navigateAppTitle() throws IOException {
 		LandingPage l=new LandingPage(driver);
 		//compare the text from the browser with actual text.-error..
 		Assert.assertEquals(l.getTitle().getText(),"FEATURED COURSES123");

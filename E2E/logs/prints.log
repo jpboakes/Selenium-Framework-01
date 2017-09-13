@@ -181,3 +181,19 @@
 08:59:30.372 [main] INFO  resources.base - Driver initialised
 08:59:31.775 [main] INFO  resources.base - Navigated to http://qaclickacademy.com
 08:59:32.025 [main] INFO  resources.base - Navigation Bar initialised successfully
+09:09:37.192 [main] INFO  resources.base - Driver initialised
+09:09:38.798 [main] INFO  resources.base - Navigated to http://qaclickacademy.com
+09:09:41.456 [main] INFO  resources.base - Driver initialised
+09:09:43.084 [main] INFO  resources.base - Navigated to http://qaclickacademy.com
+09:09:45.554 [main] INFO  resources.base - Clicked on logon button
+09:09:45.554 [main] INFO  resources.base - Selected login Name
+09:09:45.909 [main] INFO  resources.base - Following keys were sent nonrestricted@user.com
+09:09:46.143 [main] INFO  resources.base - Following keys were sent 123456
+09:09:50.453 [main] INFO  resources.base - Navigated to http://qaclickacademy.com
+09:09:52.745 [main] INFO  resources.base - Clicked on logon button
+09:09:52.745 [main] INFO  resources.base - Selected login Name
+09:09:53.086 [main] INFO  resources.base - Following keys were sent Restricteduser@user.com
+09:09:53.322 [main] INFO  resources.base - Following keys were sent 654321
+09:09:57.763 [main] INFO  resources.base - Driver initialised
+09:09:59.035 [main] INFO  resources.base - Navigated to http://qaclickacademy.com
+09:09:59.176 [main] INFO  resources.base - Navigation Bar initialised successfully

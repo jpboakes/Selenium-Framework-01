@@ -27,7 +27,7 @@ public class validatenavigationBar extends base {
 }
 	@Test
 		
-	public void basepageNavigation() throws IOException {
+	public void validateAppNavBar() throws IOException {
 		LandingPage l=new LandingPage(driver);
 		Assert.assertTrue(l.getNavigationBar().isDisplayed());
 		log.info("Navigation Bar initialised successfully");
